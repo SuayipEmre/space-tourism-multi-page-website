@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'home-desktop': "url('../src/assets/home/background-home-desktop.jpg')",
         'home-tablet': "url('../src/assets/home/background-home-tablet.jpg')",
+        'home-mobile': "url('../src/assets/home/background-home-mobile.jpg')",
       }
     },
   },
