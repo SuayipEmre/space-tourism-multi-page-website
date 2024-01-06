@@ -34,7 +34,7 @@ const DestionationContent: React.FC = () => {
                         <p
                           onClick={() => setContent(destinationsItem.item)}
                           className={
-                            classNames('text-white  text-sm md:text-base hover:border-b-[3px] hover:border-b-white hover:border-opacity-50 h-9 font-normal uppercase tracking-[2.7px]', {
+                            classNames('text-white font-barlowCondensed  text-sm md:text-base hover:border-b-[3px] hover:border-b-white hover:border-opacity-50 h-9 font-normal uppercase tracking-[2.7px]', {
                             'border-b-[3px]': destinationsItem.item == content
                           })}
                           key={destinationsItem.id}>{destinationsItem.item}</p>
@@ -43,8 +43,8 @@ const DestionationContent: React.FC = () => {
                   </div>
                 </div>
 
-                {/* name  */}
-                <p className='text-white text-[56px] md:text-[80px] lg:text-[100px] uppercase font-normal'>{item.name}</p>
+                {/* name   */}
+                <p className='text-white text-[56px] md:text-[80px] lg:text-[100px] uppercase font-belleFair font-normal'>{item.name}</p>
                 {/* desc*/}
                 <p className=' text-indigo-200 text-[15px]    lg:text-lg text-center lg:text-start font-normal '>{item.description}</p>
 
@@ -52,13 +52,13 @@ const DestionationContent: React.FC = () => {
                 <div className='flex items-center   gap-4 flex-col md:flex-row justify-between  w-[90%] xl:w-full pr-12    border-t  border-gray-700 xl:mt-12  py-6 xl:py-12 xl:pr-24 '>
 
                   <div className='flex items-center justify-center flex-col md:block'>
-                    <p className="text-indigo-200 text-center lg:text-start text-sm font-normal  uppercase tracking-widest">AVG. DISTANCE</p>
-                    <p className="text-white text-[28px] font-normal font-['Bellefair'] uppercase">{item.distance}</p>
+                    <p className="text-indigo-200 text-center lg:text-start text-sm font-normal  uppercase tracking-widest font-barlowCondensed">AVG. DISTANCE</p>
+                    <p className="text-white text-[28px] font-normal font-belleFairuppercase">{item.distance}</p>
                   </div>
 
                   <div className='flex items-center justify-center flex-col md:block'>
-                    <p className="text-indigo-200 text-center lg:text-start text-sm font-normal  uppercase tracking-widest">Est. travel time</p>
-                    <p className="text-white text-[28px] font-normal font-['Bellefair'] uppercase">{item.travel}</p>
+                    <p className="text-indigo-200 text-center lg:text-start text-sm font-normal  uppercase tracking-widest font-barlowCondensed">Est. travel time</p>
+                    <p className="text-white text-[28px] font-normal font-belleFair uppercase">{item.travel}</p>
                   </div>
 
                 </div>

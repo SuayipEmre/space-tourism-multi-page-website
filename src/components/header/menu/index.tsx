@@ -25,9 +25,11 @@ const Menu: React.FC<MenuTypes> = ({ isModalVisible, setIsModalVisible }) => {
             {
                 navItems.map(item => (
                     <div key={item.id} className='flex items-center h-full  relative gap-[11px]'>
-                        <p className={classNames('text-white hidden lg:block font-bold',{
+                        <p className={classNames('text-white hidden lg:block font-barlowCondensed font-bold',{
                             '!block' : isModalVisible
                         })}>{item.number}</p>
+                        
+                        
                         <NavLink to={item.to} className='
                         text-sm
                          hover:after:lg:absolute 
@@ -37,6 +39,7 @@ const Menu: React.FC<MenuTypes> = ({ isModalVisible, setIsModalVisible }) => {
                          hover:after:lg:bottom-0 
                          hover:after:lg:left-0 
                          hover:after:lg:opacity-50 
+                         font-barlowCondensed
                          tracking-[2.70px] md:tracking-widest lg:text-[16px] text-white'>{item.text}</NavLink>
                     </div>
                 ))
