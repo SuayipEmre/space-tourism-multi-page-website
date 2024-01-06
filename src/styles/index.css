@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.active::after {
+    content: "";
+   @apply lg:absolute h-[3px] w-full bg-white bottom-0 left-0
+}

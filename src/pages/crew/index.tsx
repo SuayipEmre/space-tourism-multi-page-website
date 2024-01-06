@@ -1,7 +1,10 @@
+import Header from "../../components/header"
 
 const Crew = () => {
   return (
-    <div>Crew</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 

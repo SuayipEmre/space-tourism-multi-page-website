@@ -1,0 +1,26 @@
+
+
+
+#destination_screen_container{
+    @apply bg-no-repeat bg-cover md:overflow-hidden
+
+}
+
+@media screen and (max-width: 640px) {
+    #destination_screen_container {
+        background-image: url('../../src/assets/destination/background-destination-mobile.jpg');
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    #destination_screen_container {
+        background-image: url('../../src/assets/destination/background-destination-tablet.jpg');
+    }
+}
+
+@media screen and (min-width: 769px)  {
+    #destination_screen_container {
+        background-image: url('../../src/assets/destination/background-destination-desktop.jpg');
+    }
+}
+

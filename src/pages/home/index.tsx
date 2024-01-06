@@ -1,13 +1,12 @@
 import Header from '../../components/header'
-import '../../styles/home.css'
+import '../../styles/home_screen.css'
 
 const Home = () => {
   
   return (
-    <div className=' overflow-auto lg:overflow-hidden  min-h-screen  '>
-      <Header />
-      
-      <div className=' h-screen   overflow-hidden flex items-center justify-center'>
+    <div className='' id='home_screen_container'>
+           <Header />
+      <div className=' h-screen   flex items-center justify-center'>
 
         <div className=' w-full gap-24 lg:gap-0 lg:w-[90%]  flex flex-col lg:flex-row items-center justify-between'>
 

@@ -1,7 +1,10 @@
+import Header from "../../components/header"
 
 const Technology = () => {
   return (
-    <div>Technology</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 

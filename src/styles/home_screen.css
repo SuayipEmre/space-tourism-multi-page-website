@@ -1,22 +1,25 @@
 
-body{
-    @apply bg-no-repeat bg-cover
+
+
+#home_screen_container{
+    @apply bg-no-repeat bg-cover md:overflow-hidden
+
 }
 
 @media screen and (max-width: 640px) {
-    body {
+    #home_screen_container {
         background-image: url('../../src/assets/home/background-home-mobile.jpg');
     }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    body {
+    #home_screen_containerdy {
         background-image: url('../../src/assets/home/background-home-tablet.jpg');
     }
 }
 
 @media screen and (min-width: 769px)  {
-    body {
+    #home_screen_container {
         background-image: url('../../src/assets/home/background-home-desktop.jpg');
     }
 }
