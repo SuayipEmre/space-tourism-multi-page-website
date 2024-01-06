@@ -9,28 +9,28 @@ type navItemsTypes = {
 
 export const navItems : Array<navItemsTypes> = [
     {
-        id : 0,
+        id : 1,
         number : '00',
         text : 'HOME',
         to : '/'
     },
 
     {
-        id : 1,
+        id : 2,
         number : '01',
         text : 'DESTINATION',
         to : '/destination'
     },
 
     {
-        id : 2,
+        id : 3,
         number : '02',
         text : 'CREW',
         to : '/crew'
     },
 
     {
-        id : 3,
+        id : 4,
         number : '03',
         text : 'TECHNOLOGY',
         to : '/technology'
