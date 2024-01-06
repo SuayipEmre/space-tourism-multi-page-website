@@ -6,9 +6,9 @@ type titleTypes = {
 }
 const Title: React.FC<titleTypes>= ({number, text}) => {
     return (
-        <div className=' lg:w-[30%] mt-24 flex items-center justify-end gap-7'>
-            <span className='text-white w-[26px] text-[28px] h-[34px] opacity-25 font-bold '>{number}</span>
-            <span className='text-white text-[28px] h-[34px] font-normal uppercase tracking-[4.72px]'>{text}</span>
+        <div className=' lg:w-[30%] ml-12 lg:ml-0 md:mt-12 lg:mt-24 flex items-center lg:justify-end gap-7'>
+            <span className='text-white w-[19px] lg:w-[26px] md:text-[20px] md:tracking-[3.38px] lg:text-[28px] h-[34px] opacity-25 font-bold '>{number}</span>
+            <span className='text-white md:text-[20px] lg:text-[28px] h-[34px] font-normal uppercase md:tracking-[3.38px] lg:tracking-[4.72px]'>{text}</span>
         </div>
     )
 }

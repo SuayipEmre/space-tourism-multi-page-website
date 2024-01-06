@@ -2,6 +2,7 @@ import moon from './../../assets/destination/image-moon.png'
 import mars from './../../assets/destination/image-mars.png'
 import europa from './../../assets/destination/image-europa.png'
 import titan from './../../assets/destination/image-titan.png'
+import titanwebp from './../../assets/destination/image-titan.webp'
 import { destinationTypes } from '../../types/destinationItems'
 
 export type destinationsItemsType = {
@@ -62,6 +63,7 @@ export const destination : Array<destinationTypes> = [
       name: "Titan",
       images: {
         png: titan,
+        webp : titanwebp
       },
       description: "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
       distance: "1.6 bil. km",
