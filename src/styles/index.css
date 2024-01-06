@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+body{
+    @apply overflow-x-hidden
+}
+
 .active::after {
     content: "";
    @apply lg:absolute h-[3px] w-full bg-white bottom-0 left-0
