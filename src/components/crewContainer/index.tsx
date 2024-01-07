@@ -7,18 +7,18 @@ const CrewContainer: React.FC = () => {
     const [currentContent, setCurrentContent] = useState<string>('Douglas Hurley')
 
     return (
-        <div className='flex items-center justify-center h-full   lg:h-auto  '>
+        <div className='flex items-center justify-center   w-full     '>
             {
                 crew.map(item => item.name == currentContent && (
-                    <div key={item.id} className='flex items-center justify-between w-full lg:w-[80%]  flex-col lg:flex-row'>
+                    <div key={item.id} className='flex items-center   justify-between w-full   lg:w-[80%]  flex-col  xl:flex-row'>
 
                         {/*Left side */}
-                        <div className='flex flex-col  justify-between   items-center lg:items-start gap-6 lg:gap-12'>
-                            <p className='opacity-50 text-white text-[24px] lg:text-[32px] font-normal font-belleFair uppercase'>{item.role}</p>
-                            <p className='text-white text-[40px] lg:text-[56px] font-normal font-belleFair uppercase'>{item.name}</p>
-                            <div className="w-[444px] text-indigo-200 text-[16px] text-center lg:text-start lg:text-lg font-normal font-['Barlow'] leading-loose">{item.bio}</div>
+                        <div className='flex flex-col order-2 md:w-[20%]  md:order-1 w-full      justify-between   items-center lg:items-start gap-4 md:gap-6 lg:gap-12 mb-24 md:my-0'>
+                            <p className='opacity-50 order-2 md:order-1 text-white  md:text-[24px] lg:text-[32px] font-normal font-belleFair uppercase'>{item.role}</p>
+                            <p className='text-white order-3 md:order-2 text-[24px] md:text-[40px] lg:text-[56px] font-normal font-belleFair uppercase'>{item.name}</p>
+                            <div className=" w-[327px] md:w-[444px] order-4 md:order-3 text-indigo-200 text-[15px] md:text-[16px] text-center lg:text-start lg:text-lg font-normal leading-loose">{item.bio}</div>
 
-                            <div className='w-full  flex items-center justify-center lg:block '>
+                            <div className='w-full order-1 md:order-4 mt-12 md:mt-0  flex items-center justify-center lg:block '>
                                 <div className="w-[132px] h-[15px] grid grid-cols-4  ">
                                     {
                                         listItems.map(item => (
@@ -33,8 +33,8 @@ const CrewContainer: React.FC = () => {
                             </div>
                         </div>
                         {/*Right side */}
-                        <div className='w-[50%] lg:w-auto mt-12 lg:mt-0'>
-                            <img src={item.images.png} alt="" />
+                        <div className='flex w-[327px]  md:w-auto  items-center justify-center  md:block  border-b md:border-none  border-gray-700 order-1 md:order-2  mt-4 md:mt-12 lg:mt-0'>
+                            <img src={item.images.png} className='w-[50%] md:w-auto' alt="" />
                         </div>
                     </div>
                 ))
@@ -47,6 +47,3 @@ const CrewContainer: React.FC = () => {
 export default CrewContainer
 
 
-/*
-    
-*/
