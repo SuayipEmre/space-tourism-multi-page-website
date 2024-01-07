@@ -1,0 +1,18 @@
+@media screen and (max-width: 640px) {
+    #technolgy_screen_container {
+        background-image: url('../../src/assets/technology/background-technology-mobile.jpg');
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    #technolgy_screen_container {
+        background-image: url('../../src/assets/technology/background-technology-tablet.jpg');
+    }
+}
+
+@media screen and (min-width: 769px)  {
+    #technolgy_screen_container {
+        background-image: url('../../src/assets/technology/background-technology-desktop.jpg');
+    }
+}
+
