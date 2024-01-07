@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    #home_screen_containerdy {
+    #home_screen_container {
         background-image: url('../../src/assets/home/background-home-tablet.jpg');
     }
 }

@@ -4,7 +4,7 @@
 
 
 body{
-    @apply overflow-x-hidden  font-barlow  object-cover bg-no-repeat
+    @apply  font-barlow  bg-no-repeat xl:overflow-hidden
 }
 
 .active::after {
