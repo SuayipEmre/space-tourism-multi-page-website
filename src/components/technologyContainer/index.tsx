@@ -4,10 +4,10 @@ import TechnologyContent from './content'
 
 const TechnologyContainer: React.FC = () => {
   return (
-    <div className='w-full'>
+    <div className='' >
       <Title number='03' text='SPACE LAUNCH 101' />
 
-        <TechnologyContent />
+      <TechnologyContent />
     </div>
   )
 }
