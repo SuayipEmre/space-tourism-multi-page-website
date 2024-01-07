@@ -2,8 +2,9 @@
 
 
 export type crewType = {
+    id: number,
     bio : string
-    rol : string
+    role : string
 } & sameTypes
 
 export type destinationTypes = {
