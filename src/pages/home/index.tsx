@@ -4,7 +4,7 @@ import '../../styles/home_screen.css'
 const Home = () => {
   
   return (
-    <div className='h-screen' id='home_screen_container'>
+    <div className=' min-h-screen xl:h-screen' id='home_screen_container'>
            <Header />
       <div className=' h-full flex items-center justify-center'>
 
