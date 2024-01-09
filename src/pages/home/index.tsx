@@ -4,11 +4,11 @@ import '../../styles/home_screen.css'
 const Home = () => {
   
   return (
-    <div className='' id='home_screen_container'>
+    <div className='h-screen' id='home_screen_container'>
            <Header />
-      <div className=' h-screen   flex items-center justify-center'>
+      <div className=' h-full flex items-center justify-center'>
 
-        <div className=' w-full gap-24 lg:gap-0 lg:w-[90%]  flex flex-col lg:flex-row items-center justify-between'>
+        <div className=' w-full  gap-24 lg:gap-0 lg:w-[90%]  flex flex-col lg:flex-row items-center justify-between'>
 
           <div className=' w-full px-6 md:px-0  md:w-[60%] lg:w-[40%]  flex flex-col items-center md:items-start  gap-6'>
             <h5 className="text-indigo-200   text-[13px] md:text-[20px] lg:text-[28px] font-normal font-barlowCondensed  tracking-[4.72px]">SO, YOU WANT TO TRAVEL TO </h5>

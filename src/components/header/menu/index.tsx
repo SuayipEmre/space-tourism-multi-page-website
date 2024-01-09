@@ -12,7 +12,7 @@ type MenuTypes = {
 const Menu: React.FC<MenuTypes> = ({ isModalVisible, setIsModalVisible }) => {
 
     return (
-        <nav className={classNames('hidden md:w-[450px] z-10  md:flex  md:h-[96px] lg:w-[830px] lg:flex-1  lg:h-24  md:items-center md:justify-evenly lg:px-12 lg:mt-10 bg-white bg-opacity-5 backdrop-blur-[81.55px] ', {
+        <nav className={classNames('hidden md:w-[450px] z-10 md:z-0  md:flex  md:h-[96px] lg:w-[830px] lg:flex-1  lg:h-24  md:items-center md:justify-evenly lg:px-12 lg:mt-10 bg-white bg-opacity-5 backdrop-blur-[81.55px] ', {
             '!flex flex-col gap-12   !absolute top-0 right-0 m-0  p-6   h-[667px] w-[254px]  ': isModalVisible
         })}>
 
