@@ -5,7 +5,7 @@ import classNames from 'classnames'
 const TechnologyContent: React.FC = () => {
   const [currentContent, setCurrentContent] = useState<string>('Launch vehicle')
   return (
-    <div className='w-full flex items-center justify-end'>
+    <div className='w-full flex items-center justify-end mt-12'>
       <div className='w-full lg:w-[90%]'>
 
         {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Logo } from '../../SVGs/logo'
 import { IconHamburger } from '../../SVGs/iconHamburger'
+
 import Menu from './menu'
 
 const Header: React.FC = () => {
